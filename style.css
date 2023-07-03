@@ -1,9 +1,26 @@
 section {
-  display: flex;
+  display: block;
   align-items: center;
+  height: auto;
 }
 
 footer {
   display: block;
+  position: relative;
+}
+
+img.choco-pizza {
+  width: 640px;
+  height: 480px;
+  align-items: center;
+}
+
+section.bioGraph {
+  display: block;
+  align-items: center;
+}
+nav {
+  display: inline-block;
+  align-items: center;
   position: relative;
 }
