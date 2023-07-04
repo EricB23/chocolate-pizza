@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Yellowtail&display=swap');
+
 section {
   display: block;
   align-items: center;
   height: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
@@ -15,12 +24,117 @@ img.choco-pizza {
   align-items: center;
 }
 
-section.bioGraph {
-  display: block;
-  align-items: center;
-}
 nav {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
+main {
+  width: 75%;
+}
+#logoAndName {
+  display: flex;
+  gap: 5px;
+  margin-left: 5px;
+}
+
+#logoAndName img {
+  display: flex;
+  align-self: center;
+  height: 100%;
+  scale: 1.2;
+}
+
+#logoAndName div h1 {
+  display: flex;
+  align-self: flex-start;
+  line-height: 35px;
+  font-family: 'Yellowtail', 'cursive';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 50px;
+}
+
+#nameAndQuote {
+  line-height: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+section #socialIcons {
+  display: flex;
+  gap: 0.5px;
+  justify-content: space-around;
+}
+
+#socialFirst {
+  display: flex;
+  height: 25px;
+}
+
+.horizontalLines {
+  height: 4px;
+  background-image: url(img/hr-img.png);
+  width: 75%;
+}
+
+#mainTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#mainIntro h2 {
+  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Oswald', 'sans-serif';
+  margin: 0;
+}
+
+#mainIntro p {
+  color: gray;
+  font-size: 12px;
+  font-family: 'Oswald', 'Sans-serif';
+  margin: 0;
+}
+
+#printer {
+  display: flex;
+  font-size: 10px;
+  height: 10px;
+  align-items: center;
+  gap: 2px;
+}
+#mainParagraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-indent: 25px;
+  font-size: 20px;
+}
+
+#mainParagraphs img {
+  width: 100%;
+  height: 100%;
+}
+
+section#mainList {
+  background-image: url(img/list-bg.png);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-size: 20px;
+}
+section#mainList ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 450px;
+}
+/*#mainList ul li:first-child {
+  margin-top: 15px;
+}*/
